@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>RIKKEI ACADEMY</h1>
+    <div class="container">
+        <div class="container1">
+            <h2>Thông tin học viên</h2>
+            <div class="studentForm">
+                
+                <label class="name">Họ và Tên</label>
+                <input type="text" class="nameInput"  placeholder="vui lòng nhập tên">
+                <br>
+               
+                <label class="email">Email</label>
+                <input type="email" class="emailInput"  placeholder="vui lòng nhập email">
+                <br>
+                
+                <label class="phone">Số điện thoại</label>
+                <input type="text" class="phoneInput"  placeholder="vui lòng nhập số điện thoại">
+                <br>
+                
+                <label class="address">Quê quán</label>
+                <input type="text" class="addressInput"  placeholder="vui lòng nhập địa chỉ quê quán">
+                <br>
+                
+                <label class="gender">Giới tính</label>
+                <input type="radio" value="Nam"><span>Nam</span>
+                <input type="radio" value="Nữ"><span>Nữ</span>
+                
+                
+                <br>
+                <button class="Save" type="submit">Lưu lại</button>
+            </div>
+        </div>
+        <div class="container2">
+            <h2>Danh sách học viên</h2>
+            <div class="findStudent">
+                <span class="searchStudent">Tìm kiếm học viên</span>
+                <input type="text" class="searching">
+                <button class="search">search</button>
+                <button class="apha-b">Sắp xếp a-z</button>
+            </div>
+            <table class="studentTable">
+                
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ tên</th>
+                        <th>Email</th>
+                        <th>Điện thoại</th>
+                        <th>Địa chỉ</th>
+                        <th>Giới tính</th>
+                        <th>Hành động</th>
+                    </tr>
+                
+                
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
